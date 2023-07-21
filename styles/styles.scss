@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+}
+
+// header
+
+#header-container {
+  padding: 0;
+}
+
+#header {
+  background: lightblue;
+  height: 75px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+// navbar
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar-navs-container {
+  background: lightcoral;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 0;
+}
+
+#navs {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#navs:hover {
+  transition: 0.3s;
+  background: black;
+  color: white;
+}
+
+#select-container {
+  background-color: lightcoral;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#select {
+  width: 150px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+// image
+
+#image-container {
+  padding: 0;
+  background: lightpink;
+}
+#image {
+  width: 100%;
+}
+
+//hero
+
+#hero-container {
+  padding: 0;
+  background: lightgreen;
+}
+
+#hero-text-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#hero-text {
+  width: 450px;
+  //   text-align: justify;
+}
+
+//person
+
+#person-container {
+  background: lightsalmon;
+  margin-bottom: 50px;
+}
+
+#person-row {
+  //   padding: 0;
+  // margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#person-text {
+  text-align: justify;
+  margin-top: 50px;
+}
+
+//footer
+
+#footer-container {
+  padding: 0px;
+  background: black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  padding-left: 10px;
+}
