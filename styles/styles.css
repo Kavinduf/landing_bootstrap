@@ -51,6 +51,7 @@ body {
 #navs:hover {
   transition: 0.3s;
   background: #759199;
+  color: black;
 }
 
 #select-container {
